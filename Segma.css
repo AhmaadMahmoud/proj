@@ -1,0 +1,647 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.home {}
+
+.home .cont {
+    width: 90%;
+    margin: auto;
+}
+
+.home nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+}
+
+.home nav ul {
+    display: flex;
+}
+
+.home nav ul li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.home nav ul li a {
+    text-decoration: none;
+
+    font-size: 16px;
+    color: #6a7a6a;
+    font-weight: bold;
+
+    margin: 0px 0px 0px 5px;
+}
+
+.home nav ul li a:hover {
+    color: #01b8dc;
+}
+
+.home nav ul .nav
+
+/** button in nav **/
+    {
+    color: #5e5e5e;
+
+    border: 1px solid #cdd1d9;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    padding: 10px 25px;
+    background-color: white;
+    margin-left: 30px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 8px;
+    cursor: pointer;
+
+}
+
+.home nav ul .nav:hover {
+    background-color: #01b8dc;
+    color: white;
+    transition: 0.5s;
+}
+
+
+.home nav .logo {
+    font-weight: bold;
+    font-size: 32px;
+
+    color: #5e5e5e;
+    display: flex;
+
+}
+
+.home nav .logo a {
+    text-decoration: none;
+    color: #5e5e5e;
+
+}
+
+.home nav .logo .s-sigma {
+    color: #eb8e03;
+}
+
+.home nav .logo .s-star {
+    color: #03cccc;
+}
+
+/** ================end nav bar =====================**/
+.home .sections {
+    display: flex;
+    justify-content: space-around;
+}
+
+.home .sections .sore img {
+    transform: rotate(90deg);
+}
+
+.home .cont .sections .sore img :hover {}
+
+
+
+.home .sections .discription {
+    text-align: right;
+    padding-top: 150px;
+    color: #969696;
+
+    font-weight: 10px;
+    margin-bottom: 10px;
+}
+
+.home .sections .discription h1 {
+    color: #3e4450;
+    font-size: 50px;
+    margin: ;
+}
+
+.home .sections .discription .start {
+
+    font-size: 16px;
+    background-color: #01b8dc;
+    padding: 8px 30px 10px;
+    color: white;
+    margin: 20px;
+    border: hidden;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(0, 0, 255, 0.2);
+}
+
+/* end =============================================el home*/
+
+.home .aside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 70px;
+    position: relative;
+    bottom: 70px;
+}
+
+.home .aside .one {
+    width: 46%;
+    text-align: right;
+    margin-top: 200px;
+    justify-content: flex-end;
+    background-color: #f5f5f5;
+    padding: 20px 20px 40px;
+    color: #646464;
+}
+
+.home .aside .one:hover {
+    border: 1px solid;
+    color: #646464;
+}
+
+.home .aside .one h2:hover {
+    color: #01b8dc;
+    cursor: pointer;
+}
+
+
+.home .aside .two {
+    width: 46%;
+    text-align: right;
+    margin-top: 200px;
+    justify-content: flex-end;
+    background-color: #f5f5f5;
+    padding: 20px 20px 40px;
+    color: #646464;
+}
+
+.home .aside .two:hover {
+    border: 1px solid;
+    color: #646464;
+}
+
+.home .aside .two h2:hover {
+    color: #01b8dc;
+    cursor: pointer;
+}
+
+
+/**==========end 2 home========**/
+.asidetwo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.asidetwo .who {
+    text-align: right;
+    color: #646464;
+    width: 46%;
+    padding: 20px 20px 40px;
+}
+
+.asidetwo .soratwo {
+    /**background-image: url(about2.png);
+background-size: 100% 100%; **/
+    padding: 20px 20px 40px;
+    position: relative;
+    bottom: 15px;
+    ;
+}
+
+/** ============================**/
+
+
+
+.home footer {
+    background-color: #f5f5f5;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+
+
+.home footer .a {
+    text-align: center;
+    color: #646464;
+    width: 100%;
+    margin: 50px;
+
+
+}
+
+.home footer .b {
+    color: #646464;
+    text-align: center;
+    font-weight: bold;
+    width: 23%;
+    background-color: white;
+    padding: 30px 5px;
+    margin: 10px;
+}
+
+.home footer .b:hover {
+    color: #01b8dc;
+    cursor: pointer;
+}
+
+.home footer .c {
+    color: #646464;
+    text-align: center;
+    font-weight: bold;
+    width: 23%;
+    background-color: white;
+    padding: 30px 5px;
+    margin: 10px;
+}
+
+.home footer .c:hover {
+    color: #01b8dc;
+    cursor: pointer;
+}
+
+.home footer .d {
+    color: #646464;
+    text-align: center;
+    font-weight: bold;
+    width: 23%;
+    background-color: white;
+    padding: 30px 5px;
+    margin: 10px;
+}
+
+.home footer .d:hover {
+    color: #01b8dc;
+    cursor: pointer;
+}
+
+.home footer .e {
+    color: #646464;
+    text-align: center;
+    font-weight: bold;
+    width: 23%;
+    background-color: white;
+    padding: 30px 5px;
+    margin: 10px;
+}
+
+.home footer .e:hover {
+    color: #01b8dc;
+    cursor: pointer;
+}
+
+.home footer .f {
+    color: #646464;
+    text-align: center;
+    font-weight: bold;
+    width: 23%;
+    background-color: white;
+    padding: 30px 5px;
+    margin: 10px;
+}
+
+.home footer .f:hover {
+    color: #01b8dc;
+    cursor: pointer;
+}
+
+.home footer .g {
+    color: #646464;
+    text-align: center;
+    font-weight: bold;
+    width: 23%;
+    background-color: white;
+    padding: 30px 5px;
+    margin: 10px;
+}
+
+.home footer .g:hover {
+    color: #01b8dc;
+    cursor: pointer;
+}
+
+.home footer .h {
+    color: #646464;
+    text-align: center;
+    font-weight: bold;
+    width: 23%;
+    background-color: white;
+
+    padding: 30px 5px;
+    margin: 10px;
+}
+
+.home footer .h:hover {
+    color: #01b8dc;
+    cursor: pointer;
+}
+
+.home footer .i {
+    color: #646464;
+    text-align: center;
+    font-weight: bold;
+    width: 23%;
+    background-color: white;
+    padding: 30px 5px;
+    margin: 10px;
+}
+
+.home footer .i:hover {
+    color: #01b8dc;
+    cursor: pointer;
+}
+
+.home footer .j {
+    color: #646464;
+    text-align: center;
+    font-weight: bold;
+    width: 23%;
+    background-color: white;
+    padding: 30px 5px;
+    margin: 10px;
+}
+
+.home footer .j:hover {
+    color: #01b8dc;
+    cursor: pointer;
+}
+
+.home footer .k {
+    color: #646464;
+    text-align: center;
+    font-weight: bold;
+    width: 23%;
+    background-color: white;
+    padding: 30px 5px;
+    margin: 10px;
+}
+
+.home footer .k:hover {
+    color: #01b8dc;
+    cursor: pointer;
+}
+
+.home footer .l {
+    color: #646464;
+    text-align: center;
+    font-weight: bold;
+    width: 23%;
+    background-color: white;
+    padding: 30px 5px;
+    margin: 10px;
+}
+
+.home footer .l:hover {
+    color: #01b8dc;
+    cursor: pointer;
+}
+
+.home footer .m {
+    color: #646464;
+    text-align: center;
+    font-weight: bold;
+    width: 23%;
+    background-color: white;
+    padding: 30px 5px;
+    margin: 10px;
+}
+
+.home footer .m:hover {
+    color: #01b8dc;
+    cursor: pointer;
+}
+
+
+
+.home footer .n {
+    text-align: center;
+    color: #646464;
+    width: 100%;
+    margin: 50px;
+
+
+}
+
+/**=================**/
+.final {
+    direction: rtl;
+}
+
+.final .intro {
+    text-align: center;
+    color: #646464;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.final form {
+    background-color: #f5f5f5;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: solid rgb(66, 182, 218);
+    margin-bottom: 50px;
+}
+
+.final form .top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: #646464;
+    font-weight: bold;
+}
+
+.final form .middle {
+    color: #646464;
+    font-weight: bold;
+    margin: 10px;
+    position: relative;
+    right: 97px;
+    top: 17px;
+}
+
+.final form .bottom {
+    color: #646464;
+    font-weight: bold;
+    margin: 10px;
+    position: relative;
+    right: 94px;
+    top: 40px;
+}
+
+.final form .bottom .zorar {
+    margin: 10px;
+}
+
+.final form .bottom .zorar button {
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #01b8dc;
+    padding: 8px 30px 10px;
+    color: white;
+    margin: 20px;
+    border: hidden;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(0, 0, 255, 0.2);
+    position: relative;
+    bottom: 10px;
+}
+
+
+@media(max-width: 780px)
+
+
+{ .home
+    {
+        overflow: hidden;
+    }
+      .home nav ul .nav
+{
+    display: none;
+}
+
+
+ .home nav .logo
+    {
+        display: none;
+       
+
+    }
+
+    .home .sections {
+        display: block;
+        margin: auto;
+    }
+
+    .home .sections .sora {
+        width: 70%;
+        position: relative;
+        right: 130px;
+    }
+
+    .home .sections .discription {
+        width: 100%;
+        margin-right: 50px;
+        position: relative;
+        left: -25px;
+        ;
+    }
+
+    .home .aside .one {
+        width: 100%;
+        position: relative;
+        left: 0px;
+
+
+    }
+
+    .home .aside .two {
+        width: 100%;
+        position: relative;
+        left: 0px;
+    }
+
+
+    .home footer {
+        
+        margin-left: 150px;
+        position: relative;
+        right: 110px;
+    }
+
+    .home footer .b {
+        width: 100%;
+    }
+
+    .home footer .c {
+        width: 100%;
+    }
+
+    .home footer .d {
+        width: 100%;
+    }
+
+    .home footer .e {
+        width: 100%;
+    }
+
+    .home footer .f {
+        width: 100%;
+    }
+
+    .home footer .g {
+        width: 100%;
+    }
+
+    .home footer .h {
+        width: 100%;
+    }
+
+    .home footer .i {
+        width: 100%;
+    }
+
+    .home footer .j {
+        width: 100%;
+    }
+
+    .home footer .k {
+        width: 100%;
+    }
+
+    .home footer .l {
+        width: 100%;
+    }
+
+    .home footer .m {
+        width: 100%;
+    }
+
+    .home footer .n {
+        width: 100%;
+    }
+    .final
+    {
+        margin-left: 150px;
+    }
+    .final .intro
+    {
+        width: 200px;
+        position: relative;
+        left: 12px;
+
+    }
+    .final form 
+    {
+        width: 400px;
+        position: relative;
+        left: 123px;
+    }
+
+    .asidetwo {
+        display: block;
+
+    }
+    .asidetwo .who{
+        width: 100%;
+        position: relative;
+        left: -10px
+    }
+
+    .asidetwo .soratwo
+    {
+        width: 80px;
+        position: relative;
+        right: 180px; 
+    }
+    .final
+    {
+       
+        position: relative;
+        right: 120px;
+    }
+}
